@@ -1,24 +1,38 @@
-# Laravel & Vue JS CRUD App
+# Laravel & Vue JS Starter
 
-## Build Setup
+## Features
 
-``` bash
-# 1. Install all laravel dependencies
-composer install
+* Laravel-mix
+* Vuejs
+* Vuex
+* Laravel
 
-# 2. Copy .env file
-cp .env.example .env
+## Getting started
 
-# 3. Generate application key
-php artisan key:generate
+### Laravel set up
+1. Install all laravel dependencies
+```bash
+$ composer install
+```
+2. Copy .env file
+```bash
+$ cp .env.example .env
+```
+3. Generate application key
+```bash
+$ php artisan key:generate
+```
+4. Serve the app
+```bash
+$ php artisan serve
+```
 
-# 4. Serve the app
-php artisan serve
-
-
-# 1. install dependencies
-npm install
-
-# 2. build for production with minification
-npm run dev
+### Vuejs set up
+1. install dependencies
+```bash
+$ npm install
+```
+2. build for production with minification
+```bash
+$ npm run dev
 ```
