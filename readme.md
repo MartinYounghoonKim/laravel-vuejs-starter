@@ -1,7 +1,9 @@
 # Laravel & Vue JS Starter
 
-## Features
+## Requirements
+* PHP>=7.0.0
 
+## Features
 * Laravel-mix
 * Vuejs
 * Vuex
