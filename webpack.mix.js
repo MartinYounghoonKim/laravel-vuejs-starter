@@ -22,7 +22,7 @@ mix.sass('resources/assets/sass/app.scss', 'public/css');
 /**
  * @desc Webpak BrowerSync 설정
  */
-mix.browserSync({ proxy: '127.0.0.1:8000' });
+mix.browserSync({proxy: '127.0.0.1:8000'});
 
 /**
  * @desc Webacpk Custom Options 설정
@@ -34,7 +34,7 @@ mix.webpackConfig({
             {
                 enforce: 'pre',
                 test: /\.(js|vue)$/,
-                include: [ path.resolve(__dirname, 'resources/assets/js') ],
+                include: [path.resolve(__dirname, 'resources/assets/js')],
                 exclude: [/(node_modules|bootstrap.js)/, path.resolve(__dirname, 'resources/assets/js/app.js')],
                 loader: 'eslint-loader'
             },
@@ -118,4 +118,5 @@ else {
     //개발 버전시 실행
     mix.sourceMaps();
     console.log('::::: Webpack Build Development Version :::::');
-};
+}
+;
